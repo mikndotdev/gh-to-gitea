@@ -11,7 +11,7 @@ receives a GitHub organization webhook and, whenever a repository is created, cr
 matching pull mirror in a [Gitea](https://gitea.io) / [Forgejo](https://forgejo.org)
 instance automatically.
 
-## Setup
+## Setup / Run locally
 
 1. Install packages
 
@@ -38,6 +38,11 @@ instance automatically.
    `configuration.errors`.
    Invalid config is logged at startup but does not crash the server, so this endpoint
    stays reachable to diagnose it.
+
+## Deploy
+### Vercel
+
+### Docker
 
 ## Seeding existing repositories
 
