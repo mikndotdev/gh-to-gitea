@@ -4,6 +4,9 @@ import { createMirror } from "./gitea";
 import { type RepositoryCreatedPayload, verifySignature } from "./github";
 
 const app = new Elysia()
+  .get("/", ({ redirect }) => {
+    return redirect("https://docs.mikn.dev/solutions/developers/gh-to-gitea");
+  })
   .get("/health", ({ set }) => {
     const configuration = validateConfig();
     if (!configuration.valid) set.status = 503;
