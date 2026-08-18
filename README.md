@@ -40,12 +40,13 @@ instance automatically.
    stays reachable to diagnose it.
 
 ## Deploy
+
 ### Vercel
 
 - Deploy once, and leave it to do it's job!
 - Click the button below to configure and deploy to Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmikndotdev%2Fgh-to-gitea&env=GITHUB_ORG,GITHUB_TOKEN,GITHUN_WEBHOOK_SECRET,GITEA_URL,GITEA_TOKEN,GITEA_ORG&envDescription=Configure%20the%20tokens%20for%20GitHub%20and%20Gitea%20here.&envLink=https%3A%2F%2Fdocs.mikn.dev%2Fsolutions%2Fdevelopers%2Fgh-to-gitea%23environment-variables)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmikndotdev%2Fgh-to-gitea&env=GITHUB_ORG,GITHUB_TOKEN,GITHUB_WEBHOOK_SECRET,GITEA_URL,GITEA_TOKEN,GITEA_ORG&envDescription=Configure%20the%20tokens%20for%20GitHub%20and%20Gitea%20here.&envLink=https%3A%2F%2Fdocs.mikn.dev%2Fsolutions%2Fdevelopers%2Fgh-to-gitea%23environment-variables)
 
 ### Docker
 
