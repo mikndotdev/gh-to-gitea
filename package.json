@@ -1,0 +1,20 @@
+{
+  "name": "gh-to-gitea",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "build": "bun build src/index.ts --compile --outfile server",
+    "seed": "bun run scripts/seed.ts",
+    "typecheck": "tsc",
+    "format": "oxfmt"
+  },
+  "dependencies": {
+    "elysia": "1"
+  },
+  "devDependencies": {
+    "@types/bun": "1",
+    "oxfmt": "^0.63.0",
+    "typescript": "5"
+  }
+}
